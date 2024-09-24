@@ -27,7 +27,7 @@ jobs:
       env:
         WIZ_CLIENT_ID: ${{ secrets.WIZ_CLIENT_ID }}
         WIZ_CLIENT_SECRET: ${{ secrets.WIZ_CLIENT_SECRET }}
-        WIZ_ENVIRONMENT: ${{ test }}
+        WIZ_ENVIRONMENT: test
 
     - name: Run wiz CLI IaC scan
       run: ./wizcli iac scan --path $SCAN_PATH --policy "$POLICY"
