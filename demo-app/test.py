@@ -1,4 +1,4 @@
-#!/usr/bin/python test1234
+#!/usr/bin/python
 
 import time
 from flask import Flask
