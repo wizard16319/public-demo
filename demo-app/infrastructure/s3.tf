@@ -1,5 +1,5 @@
 resource "aws_s3_bucket" "mongodb_backups" {
-  bucket        = "wiz-demo-mongodb-backups" #test
+  bucket        = "wiz-demo-mongodb-backups" #test1
   force_destroy = true
 }
 
